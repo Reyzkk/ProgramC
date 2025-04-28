@@ -158,7 +158,7 @@ int main(){
         printf("Carta2: PIB per Capita: R$ %.2f Venceu\n", Carta2PIBperCapita);
     } else {
         printf("--------------------------\n");
-        printf("Carta1: Densidade Populacional: %.2fkm² Perdeu\n", Carta1PIBperCapita);
+        printf("Carta1: PIB per Capita: R$ %.2f Perdeu\n", Carta1PIBperCapita);
         printf("Carta2: PIB per Capita: R$ %.2f Perdeu\n", Carta2PIBperCapita);
     }
 
