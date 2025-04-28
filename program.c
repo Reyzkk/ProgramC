@@ -148,11 +148,11 @@ int main(){
         printf("Carta2: Densidade Populacional: %.2fkm² Perdeu\n", Carta2DensidadeP);
     }
 
-    if(Carta1PIBperCapita < Carta2PIBperCapita){
+    if(Carta1PIBperCapita > Carta2PIBperCapita){
         printf("--------------------------\n");
         printf("Carta1: PIB per Capita: R$ %.2f Venceu\n", Carta1PIBperCapita);
         printf("Carta2: PIB per Capita: R$ %.2f Perdeu\n", Carta2PIBperCapita);
-    } else if (Carta2PIBperCapita < Carta1PIBperCapita){
+    } else if (Carta2PIBperCapita > Carta1PIBperCapita){
         printf("--------------------------\n");
         printf("Carta1: PIB per Capita: R$ %.2f Perdeu\n", Carta1PIBperCapita);
         printf("Carta2: PIB per Capita: R$ %.2f Venceu\n", Carta2PIBperCapita);
